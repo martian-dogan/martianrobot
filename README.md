@@ -7,3 +7,5 @@ This is Spring Boot application that simulates the simple scenario above.
 After downloading the application, you can run the following command to create the jar file;
 
 `mvn install -DskipTests`
+
+Make sure that the "input.txt" file is in the same folder as the .jar file for the application to run. 
