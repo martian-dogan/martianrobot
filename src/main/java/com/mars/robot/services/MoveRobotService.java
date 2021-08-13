@@ -36,7 +36,6 @@ public class MoveRobotService {
 				
 				if(i != 'f') {
 					robot.getOrientation().newOrientation(i);
-					System.out.println("current orientation: "+robot.getOrientation().getCurrentOrientation());
 					if(!scentList.isEmpty()) {
 						for(ScentDto dto: scentList) {
 							
